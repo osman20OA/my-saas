@@ -84,10 +84,11 @@ export function AuthForm({ mode, title, description }: AuthFormProps) {
 
   const signInWithGoogle = async () => {
     setIsLoading(true)
+
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${location.origin}/auth/callback`,
+        redirectTo: 'https://my-saas-peach.vercel.app/auth/callback',
       },
     })
 
