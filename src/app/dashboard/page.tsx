@@ -137,7 +137,7 @@ export default async function DashboardPage() {
               <CardHeader>
                 <CardTitle>Welcome to Your Dashboard</CardTitle>
                 <CardDescription>
-                  Here's what you can do with your account
+                  Here&apos;s what you can do with your account
                 </CardDescription>
               </CardHeader>
               <CardContent>
